@@ -1,6 +1,5 @@
 .content {
-  max-width: 500px;
-  margin: auto;
+  margin: 10px 10px 10px 10px;
   background: white;
   padding: 10px;
 }
@@ -11,25 +10,39 @@
 }
 
 .experienceCard {
-  width: 50%;
   background: green;
+  width: 50%;
 }
 
 .skills {
-  background: orange;
   position: absolute;
-  top: 250px;
+  background-color: violet;
+  width: 45%;
+  height: 127%;
+  top: 263px;
+  right: 10px;
 }
 
 .professional {
+  background-color: orange;
   position: absolute;
+  width: 100%;
+  top: -20px;
 }
 
-/* .personal {
+.personal {
+  background-color: red;
+  position: absolute;
+  width: 100%;
+  top: 310px;
 }
 
 .languages {
-} */
+  background-color: blue;
+  position: absolute;
+  width: 100%;
+  bottom: 162px;
+}
 
 .educationCard {
   background: yellow;
