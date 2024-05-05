@@ -10,6 +10,7 @@
 
 .experienceCard {
   width: 50%;
+  height: 275px;
 }
 
 .skills {
@@ -41,10 +42,13 @@
 
 .educationCard {
   width: 50%;
+  position: absolute;
+  top: 900px;
 }
 
-.cardTitle {
-  color: blue;
+.cardTitle,
+.name {
+  color: #2596be;
 }
 
 .lineSplitter {
@@ -55,10 +59,34 @@
   border-bottom: 10px solid yellow;
   position: absolute;
   width: 5%;
-  top: -4px;
 }
 
 .longLine {
   border-bottom: 1px solid lightblue;
   left: 50px;
+}
+
+.cardContent {
+  background: pink;
+  height: 100%;
+  position: relative;
+  margin: 10px;
+}
+
+.companyTitle h3 {
+  position: absolute;
+  top: -20px;
+}
+.positionTitle h4 {
+  position: absolute;
+  top: 1px;
+}
+.workTime h5 {
+  position: absolute;
+  top: 20px;
+}
+
+.jobDescriptionList ul {
+  position: absolute;
+  top: 50px;
 }
