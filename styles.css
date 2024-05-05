@@ -10,7 +10,6 @@
 }
 
 .experienceCard {
-  background: green;
   width: 50%;
 }
 
@@ -19,7 +18,7 @@
   background-color: violet;
   width: 45%;
   height: 116.7%;
-  top: 263px;
+  top: 241px;
   right: 10px;
 }
 
@@ -35,14 +34,14 @@
   background-color: red;
   position: absolute;
   width: 100%;
-  top: 313px;
+  top: 287px;
 }
 
 .languages {
   background-color: oldlace;
   position: absolute;
   width: 100%;
-  bottom: 83px;
+  bottom: 40px;
 }
 
 .educationCard {
@@ -52,4 +51,20 @@
 
 .cardTitle {
   color: blue;
+}
+
+.lineSplitter {
+  position: relative;
+}
+
+.smallRectangle {
+  border-bottom: 10px solid yellow;
+  position: absolute;
+  width: 5%;
+  top: -4px;
+}
+
+.longLine {
+  border-bottom: 1px solid lightblue;
+  left: 50px;
 }
