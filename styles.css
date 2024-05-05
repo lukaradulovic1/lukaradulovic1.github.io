@@ -25,20 +25,20 @@
 .professional {
   position: absolute;
   width: 100%;
-  top: 1px;
+  top: 75px;
   height: 26%;
 }
 
 .personal {
   position: absolute;
   width: 100%;
-  top: 287px;
+  top: 369px;
 }
 
 .languages {
   position: absolute;
   width: 100%;
-  bottom: 40px;
+  bottom: 0px;
 }
 
 .educationCard {
@@ -46,12 +46,17 @@
   position: absolute;
   top: 940px;
   left: 10px;
-  height: 300px;
+  height: 200px;
 }
 
 .cardTitle,
 .name {
   color: #2596be;
+}
+
+.name h1 {
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .lineSplitter {
@@ -78,17 +83,17 @@
 .companyTitle h3 {
   position: absolute;
   top: -20px;
-  font-size: 110%;
+  font-size: 140%;
 }
 .positionTitle h4 {
   position: absolute;
   top: 10px;
-  font-size: 90%;
+  font-size: 120%;
 }
 .workTime h5 {
   position: absolute;
   top: 30px;
-  font-size: 80%;
+  font-size: 110%;
 }
 
 .educationTitle h2 {
@@ -104,22 +109,42 @@
 
 ul {
   font-size: 120%;
-  font-weight: 500;
 }
 
 .schoolName h3 {
   position: absolute;
+  top: 2px;
+  font-size: large;
 }
 
-.facultyName {
+.facultyName h4 {
   position: absolute;
+  top: 23px;
 }
 
 .vocationName h5 {
   position: absolute;
+  top: 40px;
 }
 
-.educationLine {
+.educationLine h2 {
+  position: absolute;
   width: 95%;
   left: 20px;
+  top: 5px;
+}
+
+.educationInfo {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+}
+
+.university {
+  position: absolute;
+}
+
+.highSchool {
+  position: absolute;
+  top: 90px;
 }
