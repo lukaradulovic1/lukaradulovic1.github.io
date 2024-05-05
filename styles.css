@@ -1,0 +1,37 @@
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+.header {
+  background: pink;
+  width: 50%;
+}
+
+.experienceCard {
+  width: 50%;
+  background: green;
+}
+
+.skills {
+  background: orange;
+  position: absolute;
+  top: 250px;
+}
+
+.professional {
+  position: absolute;
+}
+
+/* .personal {
+}
+
+.languages {
+} */
+
+.educationCard {
+  background: yellow;
+  width: 50%;
+}
