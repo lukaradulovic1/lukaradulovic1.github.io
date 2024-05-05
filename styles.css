@@ -5,7 +5,6 @@
 }
 
 .header {
-  background: pink;
   width: 50%;
 }
 
@@ -15,7 +14,6 @@
 
 .skills {
   position: absolute;
-  background-color: violet;
   width: 45%;
   height: 116.7%;
   top: 241px;
@@ -23,7 +21,6 @@
 }
 
 .professional {
-  background-color: orange;
   position: absolute;
   width: 100%;
   top: 1px;
@@ -31,21 +28,18 @@
 }
 
 .personal {
-  background-color: red;
   position: absolute;
   width: 100%;
   top: 287px;
 }
 
 .languages {
-  background-color: oldlace;
   position: absolute;
   width: 100%;
   bottom: 40px;
 }
 
 .educationCard {
-  background: yellow;
   width: 50%;
 }
 
