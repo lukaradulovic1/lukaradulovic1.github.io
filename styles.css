@@ -18,7 +18,7 @@
   position: absolute;
   background-color: violet;
   width: 45%;
-  height: 127%;
+  height: 116.7%;
   top: 263px;
   right: 10px;
 }
@@ -27,21 +27,22 @@
   background-color: orange;
   position: absolute;
   width: 100%;
-  top: -20px;
+  top: 1px;
+  height: 26%;
 }
 
 .personal {
   background-color: red;
   position: absolute;
   width: 100%;
-  top: 310px;
+  top: 313px;
 }
 
 .languages {
   background-color: blue;
   position: absolute;
   width: 100%;
-  bottom: 162px;
+  bottom: 83px;
 }
 
 .educationCard {
