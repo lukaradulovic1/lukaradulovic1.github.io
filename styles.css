@@ -39,7 +39,7 @@
 }
 
 .languages {
-  background-color: blue;
+  background-color: oldlace;
   position: absolute;
   width: 100%;
   bottom: 83px;
@@ -48,4 +48,8 @@
 .educationCard {
   background: yellow;
   width: 50%;
+}
+
+.cardTitle {
+  color: blue;
 }
