@@ -2,10 +2,6 @@ body {
   font-weight: lighter;
 }
 
-header {
-  margin: 10px 10px 10px 10px;
-}
-
 .content {
   margin: 10px 10px 10px 10px;
   background: white;
@@ -16,8 +12,12 @@ header {
   grid-template-rows: auto auto;
 }
 
-.header {
+header {
   width: 50%;
+  font-weight: lighter;
+  font-size: large;
+  color: #000;
+  display: inline-block;
 }
 
 .cardTitle,
@@ -25,13 +25,9 @@ header {
   color: #2596be;
 }
 
-.cardTitle {
-  margin-bottom: 0px;
-}
-
 .name h1 {
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 2.8em;
+  margin-bottom: 0em;
 }
 
 .longLine {
@@ -53,8 +49,9 @@ ul {
   padding-left: 20px;
 }
 
-.languages > cardContent {
+.languages > h3 {
   font-weight: lighter;
+  font-size: medium;
 }
 
 @media screen and (max-width: 999px) {
@@ -67,4 +64,26 @@ ul {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
   }
+}
+
+header h1 {
+  background-color: pink;
+}
+
+header {
+  background-color: red;
+}
+
+.educationLine h3,
+h4,
+h5 {
+  font-weight: lighter;
+}
+
+.educationLine h3 {
+  margin-bottom: -15px;
+}
+
+.educationLine h4 {
+  margin-bottom: -15px;
 }
