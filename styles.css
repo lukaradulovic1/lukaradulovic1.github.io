@@ -49,11 +49,10 @@ header {
   position: relative;
 }
 
-.educationAndLanguage {
-  display: grid;
-  grid-template-columns: auto;
-}
-
 ul {
   padding-left: 20px;
+}
+
+.languages > cardContent {
+  font-weight: lighter;
 }
