@@ -1,52 +1,23 @@
+body {
+  font-weight: lighter;
+}
+
+header {
+  margin: 10px 10px 10px 10px;
+}
+
 .content {
   margin: 10px 10px 10px 10px;
   background: white;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .header {
   width: 50%;
-}
-
-.experienceCard {
-  width: 50%;
-  height: 275px;
-}
-
-.skills {
-  position: absolute;
-  width: 45%;
-  height: 116.7%;
-  top: 241px;
-  right: 10px;
-}
-
-.professional {
-  position: absolute;
-  width: 100%;
-  top: 75px;
-  height: 26%;
-}
-
-.personal {
-  position: absolute;
-  width: 100%;
-  top: 369px;
-}
-
-.languages {
-  position: absolute;
-  width: 100%;
-  bottom: 0px;
-}
-
-.educationCard {
-  width: 50%;
-  position: absolute;
-  top: 940px;
-  left: 10px;
-  height: 200px;
 }
 
 .cardTitle,
@@ -54,97 +25,28 @@
   color: #2596be;
 }
 
+.cardTitle {
+  margin-bottom: 0px;
+}
+
 .name h1 {
   font-weight: bold;
   font-size: 50px;
 }
 
-.lineSplitter {
+.longLine {
+  border-bottom: 1px solid lightblue;
   position: relative;
+  bottom: 5px;
+  width: 80%;
 }
 
 .smallRectangle {
   border-bottom: 10px solid yellow;
-  position: absolute;
   width: 5%;
 }
 
-.longLine {
-  border-bottom: 1px solid lightblue;
-  left: 50px;
-}
-
-.cardContent {
-  height: 100%;
-  position: relative;
-  margin: 10px;
-}
-
-.companyTitle h3 {
-  position: absolute;
-  top: -20px;
-  font-size: 140%;
-}
-.positionTitle h4 {
-  position: absolute;
-  top: 10px;
-  font-size: 120%;
-}
-.workTime h5 {
-  position: absolute;
-  top: 30px;
-  font-size: 110%;
-}
-
-.educationTitle h2 {
-  position: absolute;
-  top: -60px;
-  left: 20px;
-}
-
-.jobDescriptionList ul {
-  position: absolute;
-  top: 90px;
-}
-
-ul {
-  font-size: 120%;
-}
-
-.schoolName h3 {
-  position: absolute;
-  top: 2px;
-  font-size: large;
-}
-
-.facultyName h4 {
-  position: absolute;
-  top: 23px;
-}
-
-.vocationName h5 {
-  position: absolute;
-  top: 40px;
-}
-
-.educationLine h2 {
-  position: absolute;
-  width: 95%;
-  left: 20px;
-  top: 5px;
-}
-
-.educationInfo {
-  position: absolute;
-  width: 100%;
-  height: 20%;
-}
-
-.university {
-  position: absolute;
-}
-
-.highSchool {
-  position: absolute;
-  top: 90px;
+.educationAndLanguage {
+  display: grid;
+  grid-template-columns: auto;
 }
