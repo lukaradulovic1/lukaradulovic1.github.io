@@ -53,3 +53,7 @@ header {
   display: grid;
   grid-template-columns: auto;
 }
+
+ul {
+  padding-left: 20px;
+}
