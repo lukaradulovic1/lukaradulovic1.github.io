@@ -18,6 +18,9 @@ header {
 
 .header {
   width: 50%;
+  font-weight: lighter;
+  font-size: large;
+  color: #000;
 }
 
 .cardTitle,
@@ -30,7 +33,6 @@ header {
 }
 
 .name h1 {
-  font-weight: bold;
   font-size: 50px;
 }
 
@@ -53,8 +55,9 @@ ul {
   padding-left: 20px;
 }
 
-.languages > cardContent {
+.languages > h3 {
   font-weight: lighter;
+  font-size: medium;
 }
 
 @media screen and (max-width: 999px) {
@@ -67,4 +70,18 @@ ul {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
   }
+}
+
+.educationLine h3,
+h4,
+h5 {
+  font-weight: lighter;
+}
+
+.educationLine h3 {
+  margin-bottom: -15px;
+}
+
+.educationLine h4 {
+  margin-bottom: -15px;
 }
