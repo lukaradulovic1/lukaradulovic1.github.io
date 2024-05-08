@@ -2,10 +2,6 @@ body {
   font-weight: lighter;
 }
 
-header {
-  margin: 10px 10px 10px 10px;
-}
-
 .content {
   margin: 10px 10px 10px 10px;
   background: white;
@@ -16,11 +12,12 @@ header {
   grid-template-rows: auto auto;
 }
 
-.header {
+header {
   width: 50%;
   font-weight: lighter;
   font-size: large;
   color: #000;
+  display: inline-block;
 }
 
 .cardTitle,
@@ -28,12 +25,9 @@ header {
   color: #2596be;
 }
 
-.cardTitle {
-  margin-bottom: 0px;
-}
-
 .name h1 {
-  font-size: 50px;
+  font-size: 2.8em;
+  margin-bottom: 0em;
 }
 
 .longLine {
@@ -70,6 +64,14 @@ ul {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
   }
+}
+
+header h1 {
+  background-color: pink;
+}
+
+header {
+  background-color: red;
 }
 
 .educationLine h3,
