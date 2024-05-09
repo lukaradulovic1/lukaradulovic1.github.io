@@ -83,3 +83,12 @@ h5 {
 .educationLine h4 {
   margin-bottom: -15px;
 }
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+}
