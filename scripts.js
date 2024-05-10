@@ -1,7 +1,17 @@
-document.getElementById("phone").addEventListener("click", function (e) {
-  document.getElementById("phone").innerHTML = "+381 64 48 27 488";
-});
+function showPhoneNumber() {
+  let phoneNumber = "+381 64 48 27 488";
+  let phoneButton = document.getElementById("phone");
+  console.log("phone");
+  phoneButton.addEventListener("click", function () {
+    this.innerHTML = phoneNumber;
+  });
+}
 
-document.getElementById("email").addEventListener("click", function (e) {
-  document.getElementById("email").innerHTML = "luka.radulovic.011@gmail.com";
-});
+function showEmail() {
+  let emailAddress = "luka.radulovic.011@gmail.com";
+  let emailButton = document.getElementById("email");
+
+  emailButton.addEventListener("click", function (e) {
+    this.innerHTML = emailAddress;
+  });
+}
