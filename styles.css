@@ -92,3 +92,7 @@ footer p {
   display: flex;
   justify-content: center;
 }
+
+#phone:hover {
+  cursor: pointer;
+}

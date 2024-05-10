@@ -9,12 +9,13 @@
   <body>
     <section>
       <header>
-        <div class="name">
+        <div id="name">
           <h1>Luka Radulović</h1>
         </div>
-        <p>+381 64 48 27 488</p>
-        <a href="mailto:luka.radulovic.011@gmail.com"
-          >luka.radulovic.011@gmail.com</a
+        <a id="phone">Phone Number</a>
+        <br />
+        <a id="email" href="mailto:luka.radulovic.011@gmail.com"
+          >E-Mail adress</a
         >
         <br />
         <a href="https://www.linkedin.com/in/luka-radulovic-jnet/"
@@ -187,5 +188,12 @@
     <section>
       <footer><p>You are visitor #5</p></footer>
     </section>
+    <script src="scripts.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        showPhoneNumber();
+        showEmail();
+      });
+    </script>
   </body>
 </html>
